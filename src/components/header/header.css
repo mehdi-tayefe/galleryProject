@@ -1,0 +1,125 @@
+.header {
+  height: 70px;
+  background-color: #424242;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo {
+  height: 60px;
+}
+
+.dropbtn {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  background-color: #9fa8da;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #5c6bc0;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  position: absolute;
+  right: 0;
+  top: 53px;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  border-radius: 5px;
+  border: 1px solid #5c6bc0;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+.buttonGroup {
+  display: flex;
+  align-items: center;
+}
+
+.outlineBtn {
+  width: 100px;
+  height: 40px;
+  margin: 4px;
+  background: none;
+  border: 1px solid #c5cae9;
+  color: #c5cae9;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.outlineBtn:hover {
+  background-color: #3949ab;
+}
+
+.backgroundBtn {
+  width: 100px;
+  height: 40px;
+  margin: 4px;
+  background: #5c6bc0;
+  color: #e8eaf6;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.backgroundBtn:hover {
+  background-color: #3949ab;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
+}
+
+.link-style {
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.link-style:hover {
+  color: #9ea8e3;
+}

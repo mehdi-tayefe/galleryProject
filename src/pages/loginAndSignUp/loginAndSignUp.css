@@ -1,0 +1,160 @@
+.register-body {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets/images/backgroundThree.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.register-card {
+  background: #eeeeee;
+  width: 30%;
+  min-height: 500px;
+  border: 5px solid #9fa8da;
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
+}
+
+.register-card h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #283593;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.register-form-long {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.input-text {
+  width: 90%;
+  height: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #7986cb;
+  padding: 8px;
+}
+
+.input-textarea {
+  width: 95%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #7986cb;
+  padding: 8px;
+}
+
+.submitBtn {
+  width: 95%;
+  height: 45px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #3949ab;
+  margin-top: 60px;
+}
+
+.password-container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.password-container-signup {
+  width: 100%;
+  position: relative;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 40px;
+  top: 40%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* Hide the default file input */
+.input-file {
+  display: none;
+}
+
+/* Style for the custom "Add Image" button */
+.add-img-btn {
+  background-color: #c5cae9;
+  color: #1a237e;
+  padding: 10px;
+  border: 1px solid #1a237e;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+/* Style for image preview */
+.image-preview {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.preview-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.remove-img-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+.remove-img-btn:hover {
+  background-color: #d32f2f;
+}
+
+.password-row {
+  width: 95%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.pass-signup {
+  right: 20px;
+}
+
+.column-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
